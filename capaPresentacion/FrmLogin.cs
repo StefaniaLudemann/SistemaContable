@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace capaPresentacion
 {
-    public partial class Form1 : Form
+    public partial class FrmLogin : Form
     {
-        public Form1()
+        public FrmLogin()
         {
             InitializeComponent();
         }
 
         private void btnEntrar_Click(object sender, EventArgs e)
         {
-            Menu menu = new Menu();
+            FrmPrincipal menu = new FrmPrincipal();
             menu.ShowDialog();
         }
     }
