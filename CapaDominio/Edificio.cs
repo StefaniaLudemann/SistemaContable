@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CapaDominio
 {
-    public class Class1
+    public class Edificio
     {
     }
 }
