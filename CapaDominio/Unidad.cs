@@ -25,6 +25,9 @@ namespace CapaDominio
         [DisplayName("Numero  Del Porcetanje")]
         public decimal Porcentaje { get; set; }
 
+
+
         [DisplayName("Gastos Mensuales")]
+
     }
 }
