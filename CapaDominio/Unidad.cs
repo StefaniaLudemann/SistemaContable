@@ -29,5 +29,9 @@ namespace CapaDominio
 
         [DisplayName("Gastos Mensuales")]
 
+
+
+        public decimal GastosMensuales { get; set; }
+
     }
 }
