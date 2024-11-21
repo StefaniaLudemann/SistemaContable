@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CD_Conexion.cs" />
+    <Compile Include="CD_Edificio.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -51,6 +52,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EjemploDB.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CapaDominio\CapaDominio.csproj">
+      <Project>{4c14942f-8633-4c19-9574-f17687076bb7}</Project>
+      <Name>CapaDominio</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
