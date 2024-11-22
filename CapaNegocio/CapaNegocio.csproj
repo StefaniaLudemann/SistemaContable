@@ -42,7 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CN_Edificio.cs" />
-    <Compile Include="Class2.cs" />
+    <Compile Include="CN_Unidad.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -11,9 +11,10 @@ namespace CapaDominio
     {
         public int Id { get; set; }
 
-        //proponer generar una clase propetario ...
-        [DisplayName("Nombre Del Propietario")]
-        public string Propietario { get; set; }
+
+        [DisplayName("Propietario")]
+        public Propietario Propietario { get; set; }
+
 
         [DisplayName("Numero De la Unidad")]
         public int NumUnidad { get; set; }
@@ -32,6 +33,9 @@ namespace CapaDominio
 
 
         public decimal GastosMensuales { get; set; }
+
+        [DisplayName("Edificio")]
+        public Edificio Edificio { get; set; }
 
     }
 }

@@ -24,5 +24,6 @@ namespace CapaDominio
         public ICollection<Unidad> Unidades { set; get; }
 
         public ICollection<Egreso> Egresos { set; get; }
+
     }
 }
